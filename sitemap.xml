@@ -1,20 +1,20 @@
-<?xml-stylesheet type="text/xsl" href="https://mingyizhang.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://mingyizhang.dev/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mingyizhang.github.io/categories/</loc>
+    <loc>https://mingyizhang.dev/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://mingyizhang.github.io/</loc>
+    <loc>https://mingyizhang.dev/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://mingyizhang.github.io/tags/</loc>
+    <loc>https://mingyizhang.dev/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

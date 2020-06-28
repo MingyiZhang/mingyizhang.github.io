@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://mingyizhang.github.io/sitemap.xml
+Sitemap: https://mingyizhang.dev/sitemap.xml
