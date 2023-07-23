@@ -14,7 +14,7 @@
       
       <guid>https://mingyizhang.dev/post/20230723_kotlin-suspend-to-non-blocking/</guid>
       <description>To use Kotlin suspend function in Java, we need to convert it to a non-blocking function. The following code snippet shows how to do it.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 fun &amp;lt;T&amp;gt; suspendToFuture( executor: Executor, block: suspend () -&amp;gt; T, ): CompletableFuture&amp;lt;T&amp;gt; { val future = CompletableFuture&amp;lt;T&amp;gt;() val dispatcher = executor.asCoroutineDispatcher() CoroutineScope(dispatcher + SupervisorJob()).launch { try { future.complete(block()) } catch (e: Exception) { future.</description>
+fun &amp;lt;T&amp;gt; suspendToFuture( executor: Executor, block: suspend () -&amp;gt; T, ): CompletableFuture&amp;lt;T&amp;gt; { val future = CompletableFuture&amp;lt;T&amp;gt;() val dispatcher = executor.asCoroutineDispatcher() CoroutineScope(dispatcher + SupervisorJob()).launch { try { future.complete(block()) } catch (e: Exception) { future.completeExceptionally(e) } } return future } Suppose we have a suspend function:</description>
     </item>
     
   </channel>
