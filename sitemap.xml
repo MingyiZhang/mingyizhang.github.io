@@ -1,29 +1,47 @@
-<?xml-stylesheet type="text/xsl" href="https://mingyizhang.dev/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mingyizhang.dev/about/</loc>
-    <lastmod>2020-07-04T17:56:56+02:00</lastmod>
+    <loc>https://mingyizhang.dev/tags/java/</loc>
+    <lastmod>2023-07-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://mingyizhang.dev/tags/kotlin/</loc>
+    <lastmod>2023-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingyizhang.dev/</loc>
+    <lastmod>2023-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingyizhang.dev/post/</loc>
+    <lastmod>2023-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingyizhang.dev/tags/</loc>
+    <lastmod>2023-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingyizhang.dev/post/20230723_kotlin-suspend-to-non-blocking/</loc>
+    <lastmod>2023-07-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingyizhang.dev/archives/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingyizhang.dev/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://mingyizhang.dev/</loc>
+  </url><url>
+    <loc>https://mingyizhang.dev/search/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
-  
-  <url>
-    <loc>https://mingyizhang.dev/tags/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
 </urlset>
