@@ -1,0 +1,139 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+# Project information
+site_name: Venathera - Mingyi's Tech Odyssey
+site_url: https://mingyizhang.dev/
+site_author: Mingyi Zhang
+site_description: >-
+  Mingyi Zhang's tech profile and blog.
+
+# Copyright
+copyright: Copyright &copy; 2020 - 2023 Mingyi Zhang
+
+# Configuration
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.ico
+  logo: assets/penrose_triangle.svg
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    # - toc.integrate
+    - search.suggest
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    tag:
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css: fontawesome/brands/css3
+      java: fontawesome/brands/java
+      python: fontawesome/brands/python
+      kotlin: material/language-kotlin
+      golang: fontawesome/brands/golang
+      cpp: material/language-cpp
+      cucumber: simple/cucumber
+
+plugins:
+  - blog
+  - search
+  - social
+  - tags:
+      tags_file: tags.md
+  - glightbox
+
+# Additional configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MingyiZhang
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mingyi-zhang-503271120/
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@mingyi_zhang
+  analytics:
+    provider: google
+    property: G-KD7WZ00Q68
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
+    Java: java
+    Python: python
+    Kotlin: kotlin
+    Golang: golang
+    Cpp: cpp
+    Cucumber: cucumber
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_lang_class: true
+      anchor_linenums: true
+      line_spans: __span
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home:
+      - index.md
+  - Blog:
+      - blog/index.md
+  - Tags:
+      - tags.md
